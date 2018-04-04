@@ -1,4 +1,4 @@
-<фрагмент_вставки_значка>
+[![Build Status](https://travis-ci.org/BasyninNikita/lab06.svg?branch=master)](https://travis-ci.org/BasyninNikita/lab06)
 ## Laboratory work III
 
 Данная лабораторная работа посвещена изучению систем контроля версий на примере **Git**.
@@ -141,4 +141,4 @@ $ gistup -m "lab${LAB_NUMBER}"
 ```
 Copyright (c) 2017 Братья Вершинины
 ```
-[![Build Status](https://travis-ci.org/BasyninNikita/lab06.svg?branch=master)](https://travis-ci.org/BasyninNikita/lab06)
+
