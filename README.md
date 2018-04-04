@@ -141,4 +141,4 @@ $ gistup -m "lab${LAB_NUMBER}"
 ```
 Copyright (c) 2017 Братья Вершинины
 ```
-[![Build Status](https://travis-ci.org/BasyninNikita/lab05.svg?branch=master)](https://travis-ci.org/BasyninNikita/lab05)
+[![Build Status](https://travis-ci.org/BasyninNikita/lab06.svg?branch=master)](https://travis-ci.org/BasyninNikita/lab06)
