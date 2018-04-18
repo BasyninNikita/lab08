@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/BasyninNikita/lab07.svg?branch=master)](https://travis-ci.org/BasyninNikita/lab07)
+[![Build Status](https://travis-ci.org/BasyninNikita/lab08.svg?branch=master)](https://travis-ci.org/BasyninNikita/lab08)
 
 
 Laboratory work VII
@@ -9,7 +9,7 @@ $ open https://www.stack.nl/~dimitri/doxygen/manual/index.html
 
 Tasks
 
-    1. Создать публичный репозиторий с названием lab07 на сервисе GitHub
+    1. Создать публичный репозиторий с названием lab08 на сервисе GitHub
     2. Выполнить инструкцию учебного материала
     3. Ознакомиться со ссылками учебного материала
     4. Составить отчет и отправить ссылку личным сообщением в Slack
@@ -35,10 +35,10 @@ $ echo "export PATH=\${PATH}:\${GOPATH}/bin" >> scripts/activate
 $ source scripts/activate
 $ go get github.com/prasmussen/gdrive
 
-$ git clone https://github.com/${GITHUB_USERNAME}/lab06 projects/lab07
-$ cd projects/lab07
+$ git clone https://github.com/${GITHUB_USERNAME}/lab06 projects/lab08
+$ cd projects/lab08
 $ git remote remove origin
-$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab07
+$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab08
 
 $ mkdir docs
 $ doxygen -g docs/doxygen.conf
@@ -52,7 +52,7 @@ $ gsed -i 's/\(INPUT *=\).*$/\1 README.md include/g' docs/doxygen.conf
 $ gsed -i 's/\(USE_MDFILE_AS_MAINPAGE.*=\).*$/\1 README.md/g' docs/doxygen.conf
 $ gsed -i 's/\(OUTPUT_DIRECTORY.*=\).*$/\1 docs/g' docs/doxygen.conf
 
-$ gsed -i 's/lab06/lab07/g' README.md
+$ gsed -i 's/lab06/lab08/g' README.md
 
 # документируем функции print 
 $ edit include/print.hpp
@@ -76,7 +76,7 @@ $ git checkout master
 $ mkdir artifacts && cd artifacts
 $ sleep 20s && gnome-screenshot --file artifacts/screenshot.png
 # for macOS: $ screencapture -T 20 artifacts/screenshot.png
-# open https://${GITHUB_USERNAME}.github.io/lab07/print_8hpp.html
+# open https://${GITHUB_USERNAME}.github.io/lab08/print_8hpp.html
 $ gdrive upload screenshot.png
 $ SCREENSHOT_ID=`gdrive list | grep screenshot | awk '{ print $1; }'`
 $ gdrive share ${SCREENSHOT_ID} --role reader --type user --email ${TEACHER_EMAIL}
